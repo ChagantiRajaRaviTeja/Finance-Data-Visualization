@@ -1,8 +1,8 @@
 # Doing-EDA-on-Finance-Data
-In this data project we will focus on exploratory data analysis of stock prices of
-Bank of America
-CitiGroup
-Goldman Sachs
+In this data project we will focus on exploratory data analysis of stock prices of following banks:
+* Bank of America,
+* CitiGroup
+* Goldman Sachs
 JPMorgan Chase
 Morgan Stanley
 Wells Fargo.
