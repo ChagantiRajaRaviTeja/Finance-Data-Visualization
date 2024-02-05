@@ -29,14 +29,10 @@
      - $w_{i_1i_0} \leftarrow w_{i_1i_0} - \eta(y_{i_1} - t_{i_1})x_{i_0}$
 
 7. For a multi-class classification problem, a neural network is given as follows:
-   \[
-   \begin{align*}
-   & h_{i_1} = \sum_{i_0=1}^{2} w_{i_0i_1} x_{i_0} \\
-   & v_{i_1} = \sigma(h_{i_1}) \\
-   & h_{i_1}' = \sum_{i_1=1}^{3} w_{i_0i_1}' v_{i_1} \\
-   & y_{i_2} = \text{softmax}(h_{i_2}')
-   \end{align*}
-   \]
+   $$h_{i_1} = \sum_{i_0=1}^{2} w_{i_0i_1} x_{i_0}$$
+   $$v_{i_1} = \sigma(h_{i_1})$$
+   $$h_{i_1}' = \sum_{i_1=1}^{3} w_{i_0i_1}' v_{i_1}$$
+   $$y_{i_2} = \text{softmax}(h_{i_2}') $$
    Use categorical cross-entropy loss to compute the following:
    - Write the loss function \(E\) in terms of the variables defined above and the targets \(t_{i_2}\).
    - $\frac{\partial E}{\partial y_1}$ (i.e., $i_2$ = 1).
