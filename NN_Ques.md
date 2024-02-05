@@ -3,9 +3,7 @@
 1. A dense neural network takes a 5x1 vector as input. It has a hidden layer with 10 neurons. Then, the final layer outputs a scalar. What is the total number of learnable parameters (weights and biases)?
    - Ans: 71
 
-2. A non-linear model $$
-\hat{y} = \sigma(w_0 + w_1x)
-$$
+2. A non-linear model \[ \hat{y} = \text{sigmoid}(w_0 + w_1x) \]
  is to be optimized using the gradient descent algorithm over the loss term $$
 \mathit{L} = (y - \hat{y})^2
 $$
