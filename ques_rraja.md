@@ -21,11 +21,9 @@ Ans: None of the above. It is $4 / 7$
 $\hat{y}=w_0+w_1 x$
 
 The value of $\left[\begin{array}{l}w_0 \\ w_1\end{array}\right]$, such that the squared error $(y-\hat{y})^2$ is minimum, is
-$$
-\begin{array}{cc}
+$$\begin{array}{cc}
 \text{Inverse of } \begin{bmatrix} 3 & 6 \\ 6 & 14 \end{bmatrix} & \text{Multiplied by} \begin{bmatrix} 14 \\ 36 \end{bmatrix}
-\end{array}
-$$
+\end{array}$$
 
   - $\left[\begin{array}{lcc}
 1 & 1 & 1 \\
