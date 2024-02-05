@@ -83,3 +83,4 @@ Ans: $\left[\begin{array}{lcc}2 & 3 & 4 \\ 3 & 5 & 7 \\ 4 & 7 & 10\end{array}\ri
 6. The following code uses a sequential model from the Keras library. Find the total number of weights to be trained, including the biases.\\
 model.add(Dense (24, input-dim =100, activation='relu'))\\
 model.add (Dense (2, activation='softmax'))
+\vec{v} = \begin{bmatrix} X \\\ Y \end{bmatrix}
