@@ -22,7 +22,7 @@ $\hat{y}=w_0+w_1 x$
 
 The value of $\left[\begin{array}{l}w_0 \\ w_1\end{array}\right]$, such that the squared error $(y-\hat{y})^2$ is minimum, is
 $$\begin{bmatrix}3 & 6 \\6 & 14\end{bmatrix}^{-1}\begin{bmatrix}14 \\36\end{bmatrix}$$
-  - $$\left[\begin{array}{lcc}
+  - $\left[\begin{array}{lcc}
 1 & 1 & 1 \\
 1 & 2 & 3
 \end{array}\right]
@@ -30,7 +30,7 @@ $$\begin{bmatrix}3 & 6 \\6 & 14\end{bmatrix}^{-1}\begin{bmatrix}14 \\36\end{bmat
 1 \\
 4 \\
 9
-\end{array}\right]$$
+\end{array}\right]$
 
   - $$\left[\begin{array}{lcc}
 2 & 3 & 4 \\
