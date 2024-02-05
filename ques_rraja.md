@@ -10,24 +10,15 @@ Ans: 2\\
 Ans: $y=\sigma\left(x_{1}+x_{2}-3\right)$
 
 3. The confusion matrix for a detection model for red roses is shown below. The precision of the model is
-```mermaid
-graph LR;
-A[Ground True] --> | 20 | B(Estimated True);
-A --> | 5 | C(Estimated False);
-D(Ground False) --> | 15 | B;
-D --> | 30 | C;
-classDef B red
-classDef C green
-
-
-
+|              | Estimated True | Estimated False |
+|--------------|-----------------|------------------|
+| Ground True  | 20              | 5                |
+| Ground False | 15              | 30               |
 
 Ans: None of the above. It is $4 / 7$
 
 4. Three data points are given as shown in the table, for which a linear model is built as
-$$
-\hat{y}=w_0+w_1 x
-$$
+$\hat{y}=w_0+w_1 x$
 
 The value of $\left[\begin{array}{l}w_0 \\ w_1\end{array}\right]$, such that the squared error $(y-\hat{y})^2$ is minimum, is
 \begin{itemize}
