@@ -22,15 +22,15 @@ $\hat{y}=w_0+w_1 x$
 \vec{v} = \begin{bmatrix} X \\\ Y \end{bmatrix}
 
 
-The value of $\left[\begin{array}{l}w_0 \\ w_1\end{array}\right]$, such that the squared error $(y-\hat{y})^2$ is minimum, is
-$(\begin{bmatrix}
+The value of $\left[\begin{array}{l}w_0 \\\ w_1\end{array}\right]$, such that the squared error $(y-\hat{y})^2$ is minimum, is
+$\begin{bmatrix}
 3 & 6 \\\
 6 & 14
 \end{bmatrix}^{-1}
 \begin{bmatrix}
 14 \\\
 36
-\end{bmatrix})$
+\end{bmatrix}$
 
 
   - $\left[\begin{array}{lcc}
@@ -83,4 +83,3 @@ Ans: $\left[\begin{array}{lcc}2 & 3 & 4 \\ 3 & 5 & 7 \\ 4 & 7 & 10\end{array}\ri
 6. The following code uses a sequential model from the Keras library. Find the total number of weights to be trained, including the biases.\\
 model.add(Dense (24, input-dim =100, activation='relu'))\\
 model.add (Dense (2, activation='softmax'))
-\vec{v} = \begin{bmatrix} X \\\ Y \end{bmatrix}
