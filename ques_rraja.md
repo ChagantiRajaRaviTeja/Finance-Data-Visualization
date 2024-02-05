@@ -4,19 +4,16 @@ $p(x)=[0.1,0.1,0.8]$ for $x=0,1,2$
 
 $q(x)=[0.8,0.1,0.1]$ for $x=0,1,2$.
 Find the $\mathrm{KL}$ divergence $K L[p \| q]$ rounded off to the nearest integer. (Hint: $K L[p \| q]=-\sum_{x} p(x) \log \left(\frac{q(x)}{p(x)}\right)$ )
-Ans: 2
+Ans: 2\\
 2. The model that classifies the two classes x and o  is:
-%add plot here
-
+#add plot here
 Ans: $y=\sigma\left(x_{1}+x_{2}-3\right)$
 
-3. The confusion matrix for a detection model for red roses is shown below. The precision of the model is\\
-\begin{tabular}[b]{|c|c|c|}
-\hline & Estimated True & Estimated False \\
-\hline Ground True & 20 & 5 \\
-\hline Ground False & 15 & 30 \\
-\hline
-\end{tabular}
+3. The confusion matrix for a detection model for red roses is shown below. The precision of the model is|              | Estimated True | Estimated False |
+|--------------|-----------------|------------------|
+| Ground True  | 20              | 5                |
+| Ground False | 15              | 30               |
+
 
 \begin{itemize}
     \item 2/3
