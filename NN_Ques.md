@@ -16,7 +16,8 @@
    $\mathcal{L}(\theta) = -t \ln P(\text{Rose} | x; \theta) - (1 - t) \ln P(\text{not Rose} | x; \theta)$
    - Ans: $(\sigma(h) - t) \frac{\partial h}{\partial \theta}$
 
-5. $y = \text{ReLU}\left(\sum_{i=0}^{1} v_i d_i\right)$ where $d_i$ is a dropout layer with a dropout probability of 0.2. If $v_i$ = [-0.4, 0.8] for $i$ = [0, 1], the expected value $E\left[ X \right]$.
+5. $y = \text{ReLU}\left(\sum_{\substack{i=0 \\ i\neq1}}^{1} v_i d_i\right)$
+ where $d_i$ is a dropout layer with a dropout probability of 0.2. If $v_i$ = [-0.4, 0.8] for $i$ = [0, 1], the expected value $E\left[ X \right]$.
    - Ans: 0.38
 
 6. For multi-label classification, a neural network has 3 inputs. There is no hidden layer. The output layer has 2 neurons.
@@ -34,7 +35,7 @@
    $$h_{i_1}' = \sum_{i_1=1}^{3} w_{i_0i_1}' v_{i_1}$$
    $$y_{i_2} = \text{softmax}(h_{i_2}') $$
    Use categorical cross-entropy loss to compute the following:
-   - Write the loss function \(E\) in terms of the variables defined above and the targets \(t_{i_2}\).
+   - Write the loss function \(E\) in terms of the variables defined above and the targets $t_{i_2}$.
    - $\frac{\partial E}{\partial y_1}$ (i.e., $i_2$ = 1).
    - $\frac{\partial E}{\partial w_{11}'}$ (i.e., $i_1$ = $i_2$ = 1).
    - $\frac{\partial E}{\partial w_{11}}$ (i.e., $i_0$ = $i_1$ = 1).
