@@ -9,19 +9,15 @@ Ans: 2\\
 #add plot here
 Ans: $y=\sigma\left(x_{1}+x_{2}-3\right)$
 
-3. The confusion matrix for a detection model for red roses is shown below. The precision of the model is\\
-$$|              | Estimated True | Estimated False |
-|--------------|-----------------|------------------|
-| Ground True  | 20              | 5                |
-| Ground False | 15              | 30               |$$
+3. The confusion matrix for a detection model for red roses is shown below. The precision of the model is
+| | Estimated True | Estimated False |
+|---|---|---|
+| Ground True | 20 | 5 |
+| Ground False | 15 | 30 |
 
 
-\begin{itemize}
-    \item 2/3
-    \item 6/7
-    \item 4/5
-    \item 1/6
-\end{itemize}
+
+
 Ans: None of the above. It is $4 / 7$
 
 4. Three data points are given as shown in the table, for which a linear model is built as
