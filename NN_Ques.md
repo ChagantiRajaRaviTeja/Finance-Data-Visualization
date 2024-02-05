@@ -13,7 +13,7 @@ $
 \sigma(\cdot)
 $
  is the sigmoid function. The weights are chosen to be $ w_0 = \log_e(2)
-  $and $ w_1 = \log_e(0.5) $. The learning rate $\eta = 1 $. Find the updated value of $w_0$ after iterating once over the training data $(x = 2, y = 2/3)$.
+  $and $ w_1 = \log_e(0.5) $ . The learning rate $\eta = 1 $. Find the updated value of $w_0$ after iterating once over the training data $(x = 2, y = 2/3)$.
    - Ans: $\log_e(2) + \frac{2}{27}$
 
 3. $\tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$. Derivative of $\tanh(x)$ with respect to $x$ at $x = \log_e 2$?
