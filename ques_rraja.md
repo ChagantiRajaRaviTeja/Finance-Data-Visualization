@@ -10,10 +10,14 @@ Ans: 2\\
 Ans: $y=\sigma\left(x_{1}+x_{2}-3\right)$
 
 3. The confusion matrix for a detection model for red roses is shown below. The precision of the model is
-| | Estimated True | Estimated False |
-|---|---|---|
-| Ground True | 20 | 5 |
-| Ground False | 15 | 30 |
+```mermaid
+graph LR;
+A[Ground True] --> | 20 | B(Estimated True);
+A --> | 5 | C(Estimated False);
+D(Ground False) --> | 15 | B;
+D --> | 30 | C;
+classDef B red
+classDef C green
 
 
 
