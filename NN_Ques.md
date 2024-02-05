@@ -4,9 +4,7 @@
    - Ans: 71
 
 2. A non-linear model $\hat{y} = \sigma(w_0 + w_1x)$
- is to be optimized using the gradient descent algorithm over the loss term $$
-\mathit{L} = (y - \hat{y})^2
-$$
+ is to be optimized using the gradient descent algorithm over the loss term $$\mathit{L} = (y - \hat{y})^2$$
 . Here, $
 \sigma(\cdot)
 $
