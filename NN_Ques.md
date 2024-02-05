@@ -16,7 +16,7 @@
    $\mathcal{L}(\theta) = -t \ln P(\text{Rose} | x; \theta) - (1 - t) \ln P(\text{not Rose} | x; \theta)$
    - Ans: $(\sigma(h) - t) \frac{\partial h}{\partial \theta}$
 
-5. $y = \text{ReLU}\left(\sum_{\substack{i=0 }}^{1} v_i d_i\right)$
+5. $y = \text{ReLU}\left(\sum_{i=0}^{1} v_i d_i\right)$
  where $d_i$ is a dropout layer with a dropout probability of 0.2. If $v_i$ = [-0.4, 0.8] for $i$ = [0, 1], the expected value $E\left[ X \right]$.
    - Ans: 0.38
 
