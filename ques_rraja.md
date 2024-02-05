@@ -21,12 +21,58 @@ Ans: None of the above. It is $4 / 7$
 $\hat{y}=w_0+w_1 x$
 
 The value of $\left[\begin{array}{l}w_0 \\ w_1\end{array}\right]$, such that the squared error $(y-\hat{y})^2$ is minimum, is
-\begin{itemize}
-    \item $\left[\begin{array}{lcc} 3 & 6\\ 6&14\end{array}\right]^{-1}\left[\begin{array}{l}14 \\ 36\end{array}\right]$
-    \item $\left[\begin{array}{lcc}1 & 1 & 1 \\ 1 & 2 & 3\end{array}\right]\left[\begin{array}{l}1 \\ 4 \\ 9\end{array}\right]$
-    \item $\left[\begin{array}{lcc}2 & 3 & 4 \\ 3 & 5 & 7 \\ 4 & 7 & 10\end{array}\right]^{-1}\left[\begin{array}{l}1 \\ 4 \\ 9\end{array}\right]$
-    \item $\left[\begin{array}{lcc}1 & 1 & 1 \\ 1 & 2 & 3\end{array}\right]\left[\begin{array}{lcc}2 & 3 & 4 \\ 3 & 5 & 7 \\ 4 & 7 & 10\end{array}\right]^{-1}\left[\begin{array}{l}1 \\ 4 \\ 9\end{array}\right]$
-\end{itemize}
+ - $$
+\left[\begin{array}{lcc}
+3 & 6 \\
+6 & 14
+\end{array}\right]^{-1}
+\left[\begin{array}{l}
+14 \\
+36
+\end{array}\right]
+$$
+
+  - $$
+\left[\begin{array}{lcc}
+1 & 1 & 1 \\
+1 & 2 & 3
+\end{array}\right]
+\left[\begin{array}{l}
+1 \\
+4 \\
+9
+\end{array}\right]
+$$
+
+  - $$
+\left[\begin{array}{lcc}
+2 & 3 & 4 \\
+3 & 5 & 7 \\
+4 & 7 & 10
+\end{array}\right]^{-1}
+\left[\begin{array}{l}
+1 \\
+4 \\
+9
+\end{array}\right]
+$$
+
+  - $$
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & 2 & 3
+\end{bmatrix}
+\begin{bmatrix}
+2 & 3 & 4 \\
+3 & 5 & 7 \\
+4 & 7 & 10
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+1 \\
+4 \\
+9
+\end{bmatrix}
+$$
 Ans: $\left[\begin{array}{lcc}2 & 3 & 4 \\ 3 & 5 & 7 \\ 4 & 7 & 10\end{array}\right]^{-1}\left[\begin{array}{l}1 \\ 4 \\ 9\end{array}\right]$
 
 5. This task needs high precision, even if recall may be compromised, during automation. Mark True or False.
