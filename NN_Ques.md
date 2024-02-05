@@ -4,21 +4,16 @@
    - Ans: 71
 
 2. A non-linear model $\hat{y} = \sigma(w_0 + w_1x)$
- is to be optimized using the gradient descent algorithm over the loss term $$\mathit{L} = (y - \hat{y})^2$$
-. Here, $
-\sigma(\cdot)
-$
- is the sigmoid function. The weights are chosen to be $ w_0 = \log_e(2)
-  $and $ w_1 = \log_e(0.5) $ . The learning rate $\eta = 1 $. Find the updated value of $w_0$ after iterating once over the training data $(x = 2, y = 2/3)$.
+ is to be optimized using the gradient descent algorithm over the loss term $\mathit{L} = (y - \hat{y})^2$
+. Here, $\sigma(\cdot)$
+ is the sigmoid function. The weights are chosen to be $w_0 = \log_e(2)$ and $w_1 = \log_e(0.5)$ . The learning rate $\eta = 1$. Find the updated value of $w_0$ after iterating once over the training data $(x = 2, y = 2/3)$.
    - Ans: $\log_e(2) + \frac{2}{27}$
 
 3. $\tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$. Derivative of $\tanh(x)$ with respect to $x$ at $x = \log_e 2$?
    - Ans: 0.64
 
 4. A network is to be trained to detect a rose from input-target pairs (x, t). The final layer has one neuron with output $h$ and the final estimate $P(\text{Rose} | x; \theta) = \sigma(h)$. To train the network, binary cross-entropy loss function is used:
-   $
-   \mathcal{L}(\theta) = -t \ln P(\text{Rose} | x; \theta) - (1 - t) \ln P(\text{not Rose} | x; \theta)
-   $
+   $\mathcal{L}(\theta) = -t \ln P(\text{Rose} | x; \theta) - (1 - t) \ln P(\text{not Rose} | x; \theta)$
    - Ans: $(\sigma(h) - t) \frac{\partial h}{\partial \theta}$
 
 5. $y = \text{ReLU}\left(\sum_{i=0}^{1} v_i d_i\right)$ where $d_i$ is a dropout layer with a dropout probability of 0.2. If $v_i$ = [-0.4, 0.8] for $i$ = [0, 1], the expected value $E\left[ X \right]$.
