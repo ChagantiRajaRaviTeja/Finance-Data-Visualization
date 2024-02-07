@@ -13,14 +13,15 @@
    - Ans: 0.64
 
 4. A network is to be trained to detect a rose from input-target pairs (x, t). The final layer has one neuron with output $h$ and the final estimate $P(\text{Rose} | x; \theta) = \sigma(h)$. To train the network, binary cross-entropy loss function is used:
-   $\mathcal{L}(\theta) = -t \ln P(\text{Rose} | x; \theta) - (1 - t) \ln P(\text{not Rose} | x; \theta)$, then $\frac{\partial \mathcal{L}(\theta)}{\partial \theta}$ = ____
+   $\mathcal{L}(\theta) = -t \ln P(\text{Rose} | x; \theta) - (1 - t) \ln P(\text{not Rose} | x; \theta)$,
+   then find $\frac{\partial \mathcal{L}(\theta)}{\partial \theta}$
    - Ans: $(\sigma(h) - t) \frac{\partial h}{\partial \theta}$
 
-5. $$y = \text{ReLU}\left(\sum_{i=0}^{1} v_i d_i\right)$$
+6. $$y = \text{ReLU}\left(\sum_{i=0}^{1} v_i d_i\right)$$
  where $d_i$ is a dropout layer with a dropout probability of 0.2. If $v_i$ = [-0.4, 0.8] for $i$ = [0, 1], the expected value $E\left[ X \right]$.
    - Ans: 0.38
 
-6. For multi-label classification, a neural network has 3 inputs. There is no hidden layer. The output layer has 2 neurons.
+7. For multi-label classification, a neural network has 3 inputs. There is no hidden layer. The output layer has 2 neurons.
    - What should be the non-linearity in the output layer?
    - What loss function should be used to train the network?
    - Derive the update rule for all the weights.
@@ -29,7 +30,7 @@
      - Categorical cross entropy
      - $w_{i_1i_0} \leftarrow w_{i_1i_0} - \eta(y_{i_1} - t_{i_1})x_{i_0}$
 
-7. For a multi-class classification problem, a neural network is given as follows:
+8. For a multi-class classification problem, a neural network is given as follows:
    $$h_{i_1} = \sum_{i_0=1}^{2} w_{i_0i_1} x_{i_0}$$
    $$v_{i_1} = \sigma(h_{i_1})$$
    $$h_{i_1}' = \sum_{i_1=1}^{3} w_{i_0i_1}' v_{i_1}$$
