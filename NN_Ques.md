@@ -13,7 +13,7 @@
    - Ans: 0.64
 
 4. A network is to be trained to detect a rose from input-target pairs (x, t). The final layer has one neuron with output $h$ and the final estimate $P(\text{Rose} | x; \theta) = \sigma(h)$. To train the network, binary cross-entropy loss function is used:
-   $\mathcal{L}(\theta) = -t \ln P(\text{Rose} | x; \theta) - (1 - t) \ln P(\text{not Rose} | x; \theta)$
+   $\mathcal{L}(\theta) = -t \ln P(\text{Rose} | x; \theta) - (1 - t) \ln P(\text{not Rose} | x; \theta)$, then $\frac{\partial \mathcal{L}(\theta)}{\partial \theta}$ = ____
    - Ans: $(\sigma(h) - t) \frac{\partial h}{\partial \theta}$
 
 5. $$y = \text{ReLU}\left(\sum_{i=0}^{1} v_i d_i\right)$$
